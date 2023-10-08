@@ -56,7 +56,9 @@ h2 {
 }
 
 .container {
+    max-width: 1300px;
     padding: 6rem;
+    margin: auto;
 }
 
 .grid {
