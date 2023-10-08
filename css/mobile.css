@@ -1,0 +1,44 @@
+body {
+    padding-top: 0;
+}
+
+#navbar {
+    display: none;
+}
+
+#showcase {
+    height: 60vh;
+}
+
+.showcase-logo {
+    width: 90%;
+}
+
+.grid {
+    flex-direction: column;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.grid-gap {
+    row-gap: 20px;
+}
+
+.o-que-fazemos-imagem > img {
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.na-midia-item-imagem {
+    height: 10rem;
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.redes-sociais {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
