@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Lilita+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 80px;
+    font-family: 'Gabarito', cursive;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #7B3710;
+}
+
+a:hover {
+    text-decoration: solid;
+}
+
+img {
+    display: block;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 24px;
+    margin-top: 14px;
+    font-size: 1.1rem;
+    background: #F3451E;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 500ms ease;
+}
+
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-family: 'Lilita One', cursive;
+    padding-bottom: 20px;
+    color: #BE1931;
+}
+
+.titulo-centralizado {
+    color: #F0E18F;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.container {
+    padding: 6rem;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grid-gap {
+    column-gap: 20px;
+    align-items: start
+}
+
+.width-100 {
+    max-width: 100%;
+}
+
+/***** NAVBAR *****/
+
+#navbar {
+    width: 100%;
+    height: 80px;
+    background: #be1932d2;
+    color: white;
+    position: fixed;
+    top: 0px;
+}
+
+#navbar-container {
+    width: 80%;
+    height: 100%;
+    margin: auto 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Lilita One', cursive;
+    text-transform: uppercase;
+}
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+}
+
+#navbar-items li {
+    padding: 10px;
+}
+
+#navbar-items li a, #navbar-items li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/***** SHOWCASE *****/
+
+#showcase {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:  linear-gradient(to right, rgba(255, 178, 62, 0.7), rgba(190, 25, 49, 0.8)), url('../img/fotos-PF.png');
+    background-size: contain;
+}
+
+.showcase-logo {
+    max-width: 32rem;
+    align-items: center;
+}
+
+/***** SECOES *****/
+
+.quem-somos, .o-que-fazemos {
+    align-items: center;
+    height: 100%;
+}
+
+/***** QUEM SOMOS *****/
+
+.quem-somos {
+    align-items: center;
+}
+
+.quem-somos-foto{
+    width: 100%;
+}
+
+.quem-somos-texto{
+    width: 100%;
+}
+/***** O QUE FAZEMOS *****/
+
+.o-que-fazemos {
+    background-color: #F0E18F;
+}
+
+/***** NA MIDIA *****/
+
+.na-midia {
+    background-color: #e65f41;
+}
+
+.na-midia-item {
+    width: 100%;
+    background-color: #BE1931;
+    color: white;
+    border-radius: 20px;
+}
+
+.na-midia-item-imagem {
+    height: 14rem;
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.imagem-noticia {
+    width: 100%;
+}
+
+.na-midia-item-texto {
+    padding: 1rem;
+}
+
+/***** COMO AJUDAR *****/
+
+.como-ajudar-titulo {
+    padding-left: 6rm;
+    padding-bottom: 3rem;
+}
+
+.como-ajudar-card {
+    background-color: #F0E18F;
+    border-radius: 20px;
+    padding: 3rem;
+    width: 100%;
+}
+
+.como-ajudar-card > h3 {
+    color: #F3451E;
+    font-family: 'Lilita One', cursive;
+    font-size: 2rem;
+}
+
+.como-ajudar-card > p, .como-ajudar-card ul > li {
+    margin-bottom: 20px;
+}
+
+.chave-pix {
+    color: #BE1931;
+    font-size: 2rem;
+}
+
+/***** CONTATO *****/
+
+#contato {
+    background-color: #BE1931;
+}
+
+.contato-icone {
+    width: 6rem;
+    height: 6rem;
+}
+
+.contato-mensagem-redes {
+    color:#F0E18F;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
