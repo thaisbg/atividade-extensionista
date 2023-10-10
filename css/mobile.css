@@ -33,9 +33,6 @@ body {
 
 .na-midia-item-imagem {
     height: 10rem;
-    overflow: hidden;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
 }
 
 .redes-sociais {

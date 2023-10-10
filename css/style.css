@@ -1,4 +1,4 @@
-@import url('//fonts.googleapis.com/css2?family=Gabarito&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Lilita+One&display=swap');
 
 * {
     box-sizing: border-box;
@@ -156,6 +156,7 @@ h2 {
 .quem-somos-texto{
     width: 100%;
 }
+
 /***** O QUE FAZEMOS *****/
 
 .o-que-fazemos {
